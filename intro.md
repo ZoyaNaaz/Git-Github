@@ -44,3 +44,50 @@
 ## .gitignore generator
 
 -> use .gitignore generator to generate .gitignore file for respective environment.
+
+## branch
+
+-> like an alternative timeline
+
+## create branch
+
+git branch <branch-name>
+git switch -c <branch-name> -> create a branch & move there
+git checkout -b <branch-name> -> create a branch & move there
+
+## branch switch
+
+git checkout <branch-name>
+git switch <branch-name>
+
+## branch work
+
+-> branches are independent.
+-> changes made in one branch will not be visible in the main until merged
+
+## merging of branch
+
+-> make sure you're on the branch where you have to make other branch merge.
+-> fast forward(no conflict)
+git merge <branch-name>
+-> not fast forward(conflicts)
+-> main branch is working along with some other branches on same code files
+-> git tries best to resolve these conflicts
+-> git merge <branch-name>
+```
+<<<<<<< HEAD
+    Looks good as a project footer added
+=======
+    Looks good as a project
+
+    footer was added successfully
+>>>>>>> footer
+```
+-> keep the only part 
+## delete branch
+
+git branch -d <branch-name>
+
+## conflict
+
+changes on same file/folder on different branch, conflict happens while merging
