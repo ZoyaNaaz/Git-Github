@@ -113,3 +113,22 @@ git diff <commit>..<commit>
 ```
 ## git stash
 
+-> temp area to store your unstaged changes.
+-> you have to bring those changes as well.
+```
+git stash
+git stash pop
+git stash list
+git stash apply
+```
+## more commands
+```
+git checkout <hash> (detach head): new branch
+git switch main (reattach hash)
+git checkout HEAD~2 (look at 2 commits prior)
+git restore filename (get back to last commit version)
+```
+
+## git reflog
+
+-> moves back head to its previous position
