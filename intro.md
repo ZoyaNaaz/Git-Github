@@ -105,3 +105,11 @@ a -> file1 & b -> file2(same file over time)
 +++ => file2 (indicate changes in file)
 changes in lines & little preview of it.
 ```
+-> git diff requires other info (--staged, <commit>)
+```
+git  diff --staged
+git diff <commit> <commit>
+git diff <commit>..<commit>
+```
+## git stash
+
