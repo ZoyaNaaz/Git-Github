@@ -91,3 +91,17 @@ git branch -d <branch-name>
 ## conflict
 
 changes on same file/folder on different branch, conflict happens while merging
+
+## git diff
+
+-> informative command
+-> shows difference in 'x' time and 'y' time in the same file.
+-> compare working with staging
+
+-> reading git diff
+```
+a -> file1 & b -> file2(same file over time)
+--- => file1 (indicate changes in file)
++++ => file2 (indicate changes in file)
+changes in lines & little preview of it.
+```
